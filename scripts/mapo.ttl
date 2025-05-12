@@ -1,0 +1,27 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix tox: <https://w3id.org/tox-organism/>.
+
+tox:
+    a skos:ConceptScheme;
+    dct:description
+    "Most common in vivo test systems for toxicology experiments"@en;
+    dct:title "Organism"@en;
+    skos:hasTopConcept tox:4910f, tox:b67e6 .
+tox:05637
+    a skos:Concept;
+    skos:broader tox:b67e6;
+    skos:inScheme tox:;
+    skos:prefLabel "Rat genotype 2"@en.
+tox:4910f a skos:Concept; skos:prefLabel "Mouse"@en; skos:topConceptOf tox: .
+
+tox:9b76c
+    a skos:Concept;
+    skos:broader tox:b67e6;
+    skos:inScheme tox:;
+    skos:prefLabel "Rat genotype1"@en.
+tox:b67e6
+    a skos:Concept;
+    skos:narrower tox:05637, tox:9b76c;
+    skos:prefLabel "Rat"@en;
+    skos:topConceptOf tox: .
