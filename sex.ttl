@@ -1,31 +1,21 @@
-@prefix sex: <https://w3id.org/mesyto/vocab/sex/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sex: <https://w3id.org/mesyto/vocab/sex/> .
 
-sex: a skos:ConceptScheme ;
+sex:
+    a skos:ConceptScheme ;
+    dct:description "Controlled vocabulary for sex of the test system organism"@en ;
     dct:title "Sex vocabulary"@en ;
-    dct:creator "MeSyTo"@en ;
-    dct:created "2026-05-15"^^xsd:date ;
-    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-    skos:hasTopConcept sex:female, sex:male, sex:hermaphrodite, sex:unknown, sex:notApplicable .
+    skos:hasTopConcept sex:Male, sex:Female, sex:Unknown .
 
-sex:female a skos:Concept ;
-    skos:prefLabel "female"@en ;
-    skos:topConceptOf sex: .
-
-sex:male a skos:Concept ;
+sex:Male a skos:Concept ;
     skos:prefLabel "male"@en ;
     skos:topConceptOf sex: .
 
-sex:hermaphrodite a skos:Concept ;
-    skos:prefLabel "hermaphrodite"@en ;
+sex:Female a skos:Concept ;
+    skos:prefLabel "female"@en ;
     skos:topConceptOf sex: .
 
-sex:unknown a skos:Concept ;
+sex:Unknown a skos:Concept ;
     skos:prefLabel "unknown"@en ;
-    skos:topConceptOf sex: .
-
-sex:notApplicable a skos:Concept ;
-    skos:prefLabel "not applicable"@en ;
     skos:topConceptOf sex: .
