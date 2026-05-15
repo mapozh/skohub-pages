@@ -5,44 +5,44 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 mesyto:sexConcept a rdfs:Class ;
-    rdfs:label "sex concept" .
+    rdfs:label "sex concept"@en .
 
 mesyto-vocab:sex a skos:ConceptScheme ;
-    skos:prefLabel "sex" ;
+    dcterms:title "Sex vocabulary"@en ;
     dcterms:creator "MeSyTo" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    skos:hasTopConcept mesyto:Female ,
-                       mesyto:Male ,
-                       mesyto:Hermaphrodite ,
-                       mesyto:Unknown ,
-                       mesyto:NotApplicable .
+    skos:hasTopConcept mesyto-vocab:Female ,
+                       mesyto-vocab:Male ,
+                       mesyto-vocab:Hermaphrodite ,
+                       mesyto-vocab:Unknown ,
+                       mesyto-vocab:NotApplicable .
 
-mesyto:Female a mesyto:sexConcept, skos:Concept ;
-    rdfs:label "female" ;
-    skos:prefLabel "female" ;
+mesyto-vocab:Female a mesyto:sexConcept, skos:Concept ;
+    rdfs:label "female"@en ;
+    skos:prefLabel "female"@en ;
     skos:inScheme mesyto-vocab:sex ;
     skos:topConceptOf mesyto-vocab:sex .
 
-mesyto:Male a mesyto:sexConcept, skos:Concept ;
-    rdfs:label "male" ;
-    skos:prefLabel "male" ;
+mesyto-vocab:Male a mesyto:sexConcept, skos:Concept ;
+    rdfs:label "male"@en ;
+    skos:prefLabel "male"@en ;
     skos:inScheme mesyto-vocab:sex ;
     skos:topConceptOf mesyto-vocab:sex .
 
-mesyto:Hermaphrodite a mesyto:sexConcept, skos:Concept ;
-    rdfs:label "hermaphrodite" ;
-    skos:prefLabel "hermaphrodite" ;
+mesyto-vocab:Hermaphrodite a mesyto:sexConcept, skos:Concept ;
+    rdfs:label "hermaphrodite"@en ;
+    skos:prefLabel "hermaphrodite"@en ;
     skos:inScheme mesyto-vocab:sex ;
     skos:topConceptOf mesyto-vocab:sex .
 
-mesyto:Unknown a mesyto:sexConcept, skos:Concept ;
-    rdfs:label "unknown" ;
-    skos:prefLabel "unknown" ;
+mesyto-vocab:Unknown a mesyto:sexConcept, skos:Concept ;
+    rdfs:label "unknown"@en ;
+    skos:prefLabel "unknown"@en ;
     skos:inScheme mesyto-vocab:sex ;
     skos:topConceptOf mesyto-vocab:sex .
 
-mesyto:NotApplicable a mesyto:sexConcept, skos:Concept ;
-    rdfs:label "not applicable" ;
-    skos:prefLabel "not applicable" ;
+mesyto-vocab:NotApplicable a mesyto:sexConcept, skos:Concept ;
+    rdfs:label "not applicable"@en ;
+    skos:prefLabel "not applicable"@en ;
     skos:inScheme mesyto-vocab:sex ;
     skos:topConceptOf mesyto-vocab:sex .
