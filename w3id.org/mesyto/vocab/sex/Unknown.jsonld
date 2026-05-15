@@ -1,8 +1,8 @@
 {
-  "id": "https://w3id.org/mesyto/vocab/sex/male",
+  "id": "https://w3id.org/mesyto/vocab/sex/Unknown",
   "type": "Concept",
   "prefLabel": {
-    "en": "male"
+    "en": "unknown"
   },
   "inScheme": [
     {

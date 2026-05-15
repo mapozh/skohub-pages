@@ -1,8 +1,8 @@
 {
-  "id": "https://w3id.org/mesyto/vocab/sex/notApplicable",
+  "id": "https://w3id.org/mesyto/vocab/sex/Female",
   "type": "Concept",
   "prefLabel": {
-    "en": "not applicable"
+    "en": "female"
   },
   "inScheme": [
     {
