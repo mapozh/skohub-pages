@@ -8,7 +8,7 @@ mesyto:EBIprotocolTypeConcept a rdfs:Class ;
     rdfs:label "EBI protocolType concept" .
 
 mesyto-vocab:EBIprotocolType a skos:ConceptScheme ;
-    skos:prefLabel "EBI protocolType" ;
+    dcterms:title "EBI protocol type vocabulary"@en ;
     dcterms:creator "MeSyTo" ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     skos:hasTopConcept mesyto:EBISampleCollectionProtocol ,
