@@ -1,0 +1,335 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIexperimentTypeConcept a rdfs:Class ;
+    rdfs:label "EBI experimentType concept" .
+
+mesyto-vocab:EBIexperimentType a skos:ConceptScheme ;
+    skos:prefLabel "EBI experimentType" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBI4C ,
+                       mesyto:EBIAntigenProfiling ,
+                       mesyto:EBIATACSeq ,
+                       mesyto:EBIBisulfiteSeq ,
+                       mesyto:EBICaptureC ,
+                       mesyto:EBIChIPChipByArray ,
+                       mesyto:EBIChIPChipBySNPArray ,
+                       mesyto:EBIChIPChipByTilingArray ,
+                       mesyto:EBIChIPSeq ,
+                       mesyto:EBICLIPSeq ,
+                       mesyto:EBIComparativeGenomicHybridizationByArray ,
+                       mesyto:EBICUTRUN ,
+                       mesyto:EBIDNASeq ,
+                       mesyto:EBIExomeSequencing ,
+                       mesyto:EBIFAIRESeq ,
+                       mesyto:EBIGenotypingByArray ,
+                       mesyto:EBIGenotypingByHighThroughputSequencing ,
+                       mesyto:EBIGROSeq ,
+                       mesyto:EBIHiC ,
+                       mesyto:EBIMeDIPSeq ,
+                       mesyto:EBIMetabolomicProfiling ,
+                       mesyto:EBIMethylationProfilingByArray ,
+                       mesyto:EBIMethylationProfilingByHighThroughputSequencing ,
+                       mesyto:EBIMicroRNAProfilingByArray ,
+                       mesyto:EBIMicroRNAProfilingByHighThroughputSequencing ,
+                       mesyto:EBIMNaseSeq ,
+                       mesyto:EBIProteomicProfilingByArray ,
+                       mesyto:EBIRIPChipByArray ,
+                       mesyto:EBIRiboSeq ,
+                       mesyto:EBIRIPSeq ,
+                       mesyto:EBIRNASeqOfCodingRNA ,
+                       mesyto:EBIRNASeqOfCodingRNAFromSingleCells ,
+                       mesyto:EBIRNASeqOfNonCodingRNA ,
+                       mesyto:EBIRNASeqOfNonCodingRNAFromSingleCells ,
+                       mesyto:EBIRNASeqOfTotalRNA ,
+                       mesyto:EBIScATACSeq ,
+                       mesyto:EBISingleNucleusRNASequencing ,
+                       mesyto:EBISpatialTranscriptomicsByHighThroughputSequencing ,
+                       mesyto:EBITilingPathByArray ,
+                       mesyto:EBITranscriptionProfilingByArray ,
+                       mesyto:EBITranscriptionProfilingByMPSS ,
+                       mesyto:EBITranscriptionProfilingByRTPCR ,
+                       mesyto:EBITranscriptionProfilingBySAGE ,
+                       mesyto:EBITranscriptionProfilingByTilingArray ,
+                       mesyto:EBITranslationProfiling ,
+                       mesyto:EBIWholeChromosomeRandomSequencing .
+
+mesyto:EBI4C a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "4C" ;
+    skos:prefLabel "4C" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIAntigenProfiling a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "antigen profiling" ;
+    skos:prefLabel "antigen profiling" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIATACSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "ATAC-seq" ;
+    skos:prefLabel "ATAC-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIBisulfiteSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "Bisulfite-seq" ;
+    skos:prefLabel "Bisulfite-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBICaptureC a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "Capture-C" ;
+    skos:prefLabel "Capture-C" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIChIPChipByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "ChIP-chip by array" ;
+    skos:prefLabel "ChIP-chip by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIChIPChipBySNPArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "ChIP-chip by SNP array" ;
+    skos:prefLabel "ChIP-chip by SNP array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIChIPChipByTilingArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "ChIP-chip by tiling array" ;
+    skos:prefLabel "ChIP-chip by tiling array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIChIPSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "ChIP-seq" ;
+    skos:prefLabel "ChIP-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBICLIPSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "CLIP-seq" ;
+    skos:prefLabel "CLIP-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIComparativeGenomicHybridizationByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "comparative genomic hybridization by array" ;
+    skos:prefLabel "comparative genomic hybridization by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBICUTRUN a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "CUT&RUN" ;
+    skos:prefLabel "CUT&RUN" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIDNASeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "DNA-seq" ;
+    skos:prefLabel "DNA-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIExomeSequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "exome sequencing" ;
+    skos:prefLabel "exome sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIFAIRESeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "FAIRE-seq" ;
+    skos:prefLabel "FAIRE-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIGenotypingByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "genotyping by array" ;
+    skos:prefLabel "genotyping by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIGenotypingByHighThroughputSequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "genotyping by high throughput sequencing" ;
+    skos:prefLabel "genotyping by high throughput sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIGROSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "GRO-seq" ;
+    skos:prefLabel "GRO-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIHiC a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "Hi-C" ;
+    skos:prefLabel "Hi-C" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMeDIPSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "MeDIP-seq" ;
+    skos:prefLabel "MeDIP-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMetabolomicProfiling a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "metabolomic profiling" ;
+    skos:prefLabel "metabolomic profiling" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMethylationProfilingByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "methylation profiling by array" ;
+    skos:prefLabel "methylation profiling by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMethylationProfilingByHighThroughputSequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "methylation profiling by high throughput sequencing" ;
+    skos:prefLabel "methylation profiling by high throughput sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMicroRNAProfilingByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "microRNA profiling by array" ;
+    skos:prefLabel "microRNA profiling by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMicroRNAProfilingByHighThroughputSequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "microRNA profiling by high throughput sequencing" ;
+    skos:prefLabel "microRNA profiling by high throughput sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIMNaseSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "MNase-seq" ;
+    skos:prefLabel "MNase-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIProteomicProfilingByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "proteomic profiling by array" ;
+    skos:prefLabel "proteomic profiling by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRIPChipByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RIP-chip by array" ;
+    skos:prefLabel "RIP-chip by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRiboSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "Ribo-seq" ;
+    skos:prefLabel "Ribo-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRIPSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RIP-seq" ;
+    skos:prefLabel "RIP-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRNASeqOfCodingRNA a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RNA-seq of coding RNA" ;
+    skos:prefLabel "RNA-seq of coding RNA" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRNASeqOfCodingRNAFromSingleCells a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RNA-seq of coding RNA from single cells" ;
+    skos:prefLabel "RNA-seq of coding RNA from single cells" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRNASeqOfNonCodingRNA a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RNA-seq of non coding RNA" ;
+    skos:prefLabel "RNA-seq of non coding RNA" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRNASeqOfNonCodingRNAFromSingleCells a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RNA-seq of non coding RNA from single cells" ;
+    skos:prefLabel "RNA-seq of non coding RNA from single cells" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIRNASeqOfTotalRNA a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "RNA-seq of total RNA" ;
+    skos:prefLabel "RNA-seq of total RNA" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIScATACSeq a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "scATAC-seq" ;
+    skos:prefLabel "scATAC-seq" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBISingleNucleusRNASequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "single nucleus RNA sequencing" ;
+    skos:prefLabel "single nucleus RNA sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBISpatialTranscriptomicsByHighThroughputSequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "spatial transcriptomics by high-throughput sequencing" ;
+    skos:prefLabel "spatial transcriptomics by high-throughput sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITilingPathByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "tiling path by array" ;
+    skos:prefLabel "tiling path by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITranscriptionProfilingByArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "transcription profiling by array" ;
+    skos:prefLabel "transcription profiling by array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITranscriptionProfilingByMPSS a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "transcription profiling by MPSS" ;
+    skos:prefLabel "transcription profiling by MPSS" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITranscriptionProfilingByRTPCR a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "transcription profiling by RT-PCR" ;
+    skos:prefLabel "transcription profiling by RT-PCR" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITranscriptionProfilingBySAGE a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "transcription profiling by SAGE" ;
+    skos:prefLabel "transcription profiling by SAGE" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITranscriptionProfilingByTilingArray a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "transcription profiling by tiling array" ;
+    skos:prefLabel "transcription profiling by tiling array" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBITranslationProfiling a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "translation profiling" ;
+    skos:prefLabel "translation profiling" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .
+
+mesyto:EBIWholeChromosomeRandomSequencing a mesyto:EBIexperimentTypeConcept, skos:Concept ;
+    rdfs:label "whole chromosome random sequencing" ;
+    skos:prefLabel "whole chromosome random sequencing" ;
+    skos:inScheme mesyto-vocab:EBIexperimentType ;
+    skos:topConceptOf mesyto-vocab:EBIexperimentType .

@@ -1,0 +1,405 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:GEOsequencingPlatformConcept a rdfs:Class ;
+    rdfs:label "GEOsequencingPlatform concept" .
+
+mesyto-vocab:GEOsequencingPlatform a skos:ConceptScheme ;
+    skos:prefLabel "GEOsequencingPlatform" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:IlluminaHiSeq1000 ,
+                       mesyto:IlluminaHiSeq1500 ,
+                       mesyto:IlluminaHiSeq2000 ,
+                       mesyto:IlluminaHiSeq2500 ,
+                       mesyto:IlluminaHiSeq3000 ,
+                       mesyto:IlluminaHiSeq4000 ,
+                       mesyto:HiSeqXFive ,
+                       mesyto:HiSeqXTen ,
+                       mesyto:IlluminaHiScanSQ ,
+                       mesyto:IlluminaISeq100 ,
+                       mesyto:IlluminaMiSeq ,
+                       mesyto:IlluminaMiniSeq ,
+                       mesyto:IlluminaNextSeq500 ,
+                       mesyto:NextSeq550 ,
+                       mesyto:NextSeq1000 ,
+                       mesyto:NextSeq2000 ,
+                       mesyto:IlluminaNovaSeq6000 ,
+                       mesyto:IlluminaNovaSeqX ,
+                       mesyto:IlluminaNovaSeqXPlus ,
+                       mesyto:AB5500GeneticAnalyzer ,
+                       mesyto:AB5500xlGeneticAnalyzer ,
+                       mesyto:AB5500xlWGeneticAnalysisSystem ,
+                       mesyto:BGISEQ500 ,
+                       mesyto:DNBSEQG400 ,
+                       mesyto:DNBSEQG400FAST ,
+                       mesyto:DNBSEQG50 ,
+                       mesyto:DNBSEQT7 ,
+                       mesyto:MGISEQ2000RS ,
+                       mesyto:GridION ,
+                       mesyto:MinION ,
+                       mesyto:PromethION ,
+                       mesyto:IonGeneStudioS5 ,
+                       mesyto:IonGeneStudioS5Plus ,
+                       mesyto:IonGeneStudioS5Prime ,
+                       mesyto:IonTorrentGenexus ,
+                       mesyto:IonTorrentPGM ,
+                       mesyto:IonTorrentProton ,
+                       mesyto:IonTorrentS5 ,
+                       mesyto:IonTorrentS5XL ,
+                       mesyto:PacBioRS ,
+                       mesyto:PacBioRSII ,
+                       mesyto:Sequel ,
+                       mesyto:SequelII ,
+                       mesyto:SequelIIe ,
+                       mesyto:CompleteGenomics ,
+                       mesyto:ElementAVITI ,
+                       mesyto:FASTASeq300 ,
+                       mesyto:GenoCare1600 ,
+                       mesyto:GenoLabM ,
+                       mesyto:GS111 ,
+                       mesyto:HelicosHeliScope ,
+                       mesyto:Onso ,
+                       mesyto:Revio ,
+                       mesyto:SentosaSQ301 ,
+                       mesyto:Tapestri ,
+                       mesyto:UG100 .
+
+mesyto:IlluminaHiSeq1000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 1000" ;
+    skos:prefLabel "Illumina HiSeq 1000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaHiSeq1500 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 1500" ;
+    skos:prefLabel "Illumina HiSeq 1500" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaHiSeq2000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 2000" ;
+    skos:prefLabel "Illumina HiSeq 2000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaHiSeq2500 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 2500" ;
+    skos:prefLabel "Illumina HiSeq 2500" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaHiSeq3000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 3000" ;
+    skos:prefLabel "Illumina HiSeq 3000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaHiSeq4000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 4000" ;
+    skos:prefLabel "Illumina HiSeq 4000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:HiSeqXFive a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "HiSeq X Five" ;
+    skos:prefLabel "HiSeq X Five" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:HiSeqXTen a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "HiSeq X Ten" ;
+    skos:prefLabel "HiSeq X Ten" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaHiScanSQ a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiScanSQ" ;
+    skos:prefLabel "Illumina HiScanSQ" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaISeq100 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina iSeq 100" ;
+    skos:prefLabel "Illumina iSeq 100" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaMiSeq a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina MiSeq" ;
+    skos:prefLabel "Illumina MiSeq" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaMiniSeq a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina MiniSeq" ;
+    skos:prefLabel "Illumina MiniSeq" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaNextSeq500 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NextSeq 500" ;
+    skos:prefLabel "Illumina NextSeq 500" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:NextSeq550 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 550" ;
+    skos:prefLabel "NextSeq 550" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:NextSeq1000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 1000" ;
+    skos:prefLabel "NextSeq 1000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:NextSeq2000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 2000" ;
+    skos:prefLabel "NextSeq 2000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaNovaSeq6000 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NovaSeq 6000" ;
+    skos:prefLabel "Illumina NovaSeq 6000" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaNovaSeqX a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NovaSeq X" ;
+    skos:prefLabel "Illumina NovaSeq X" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IlluminaNovaSeqXPlus a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NovaSeq X Plus" ;
+    skos:prefLabel "Illumina NovaSeq X Plus" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:AB5500GeneticAnalyzer a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB 5500 Genetic Analyzer" ;
+    skos:prefLabel "AB 5500 Genetic Analyzer" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:AB5500xlGeneticAnalyzer a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB 5500xl Genetic Analyzer" ;
+    skos:prefLabel "AB 5500xl Genetic Analyzer" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:AB5500xlWGeneticAnalysisSystem a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB 5500xl-W Genetic Analysis System" ;
+    skos:prefLabel "AB 5500xl-W Genetic Analysis System" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:BGISEQ500 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "BGISEQ-500" ;
+    skos:prefLabel "BGISEQ-500" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:DNBSEQG400 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "DNBSEQ-G400" ;
+    skos:prefLabel "DNBSEQ-G400" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:DNBSEQG400FAST a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "DNBSEQ-G400 FAST" ;
+    skos:prefLabel "DNBSEQ-G400 FAST" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:DNBSEQG50 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "DNBSEQ-G50" ;
+    skos:prefLabel "DNBSEQ-G50" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:DNBSEQT7 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "DNBSEQ-T7" ;
+    skos:prefLabel "DNBSEQ-T7" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:MGISEQ2000RS a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "MGISEQ-2000RS" ;
+    skos:prefLabel "MGISEQ-2000RS" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:GridION a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "GridION" ;
+    skos:prefLabel "GridION" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:MinION a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "MinION" ;
+    skos:prefLabel "MinION" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:PromethION a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "PromethION" ;
+    skos:prefLabel "PromethION" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonGeneStudioS5 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion GeneStudio S5" ;
+    skos:prefLabel "Ion GeneStudio S5" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonGeneStudioS5Plus a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion GeneStudio S5 plus" ;
+    skos:prefLabel "Ion GeneStudio S5 plus" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonGeneStudioS5Prime a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion GeneStudio S5 prime" ;
+    skos:prefLabel "Ion GeneStudio S5 prime" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonTorrentGenexus a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion Torrent Genexus" ;
+    skos:prefLabel "Ion Torrent Genexus" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonTorrentPGM a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion Torrent PGM" ;
+    skos:prefLabel "Ion Torrent PGM" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonTorrentProton a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion Torrent Proton" ;
+    skos:prefLabel "Ion Torrent Proton" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonTorrentS5 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion Torrent S5" ;
+    skos:prefLabel "Ion Torrent S5" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:IonTorrentS5XL a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Ion Torrent S5 XL" ;
+    skos:prefLabel "Ion Torrent S5 XL" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:PacBioRS a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "PacBio RS" ;
+    skos:prefLabel "PacBio RS" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:PacBioRSII a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "PacBio RS II" ;
+    skos:prefLabel "PacBio RS II" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:Sequel a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Sequel" ;
+    skos:prefLabel "Sequel" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:SequelII a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Sequel II" ;
+    skos:prefLabel "Sequel II" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:SequelIIe a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Sequel IIe" ;
+    skos:prefLabel "Sequel IIe" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:CompleteGenomics a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Complete Genomics" ;
+    skos:prefLabel "Complete Genomics" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:ElementAVITI a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Element AVITI" ;
+    skos:prefLabel "Element AVITI" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:FASTASeq300 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "FASTASeq 300" ;
+    skos:prefLabel "FASTASeq 300" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:GenoCare1600 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "GenoCare 1600" ;
+    skos:prefLabel "GenoCare 1600" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:GenoLabM a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "GenoLab M" ;
+    skos:prefLabel "GenoLab M" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:GS111 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "GS111" ;
+    skos:prefLabel "GS111" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:HelicosHeliScope a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Helicos HeliScope" ;
+    skos:prefLabel "Helicos HeliScope" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:Onso a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Onso" ;
+    skos:prefLabel "Onso" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:Revio a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Revio" ;
+    skos:prefLabel "Revio" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:SentosaSQ301 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Sentosa SQ301" ;
+    skos:prefLabel "Sentosa SQ301" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:Tapestri a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Tapestri" ;
+    skos:prefLabel "Tapestri" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .
+
+mesyto:UG100 a mesyto:GEOsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "UG 100" ;
+    skos:prefLabel "UG 100" ;
+    skos:inScheme mesyto-vocab:GEOsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:GEOsequencingPlatform .

@@ -1,0 +1,83 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIprotocolTypeConcept a rdfs:Class ;
+    rdfs:label "EBI protocolType concept" .
+
+mesyto-vocab:EBIprotocolType a skos:ConceptScheme ;
+    skos:prefLabel "EBI protocolType" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBISampleCollectionProtocol ,
+                       mesyto:EBINucleicAcidExtractionProtocol ,
+                       mesyto:EBINucleicAcidLibraryConstructionProtocol ,
+                       mesyto:EBINucleicAcidSequencingProtocol ,
+                       mesyto:EBIDissectionProtocol ,
+                       mesyto:EBIGrowthProtocol ,
+                       mesyto:EBITreatmentProtocol ,
+                       mesyto:EBIConversionProtocol ,
+                       mesyto:EBIHighThroughputSequenceAlignmentProtocol ,
+                       mesyto:EBINormalizationDataTransformationProtocol .
+
+mesyto:EBISampleCollectionProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "sample collection protocol" ;
+    skos:prefLabel "sample collection protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBINucleicAcidExtractionProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "nucleic acid extraction protocol" ;
+    skos:prefLabel "nucleic acid extraction protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBINucleicAcidLibraryConstructionProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "nucleic acid library construction protocol" ;
+    skos:prefLabel "nucleic acid library construction protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBINucleicAcidSequencingProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "nucleic acid sequencing protocol" ;
+    skos:prefLabel "nucleic acid sequencing protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBIDissectionProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "dissection protocol" ;
+    skos:prefLabel "dissection protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBIGrowthProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "growth protocol" ;
+    skos:prefLabel "growth protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBITreatmentProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "treatment protocol" ;
+    skos:prefLabel "treatment protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBIConversionProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "conversion protocol" ;
+    skos:prefLabel "conversion protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBIHighThroughputSequenceAlignmentProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "high throughput sequence alignment protocol" ;
+    skos:prefLabel "high throughput sequence alignment protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .
+
+mesyto:EBINormalizationDataTransformationProtocol a mesyto:EBIprotocolTypeConcept, skos:Concept ;
+    rdfs:label "normalization data transformation protocol" ;
+    skos:prefLabel "normalization data transformation protocol" ;
+    skos:inScheme mesyto-vocab:EBIprotocolType ;
+    skos:topConceptOf mesyto-vocab:EBIprotocolType .

@@ -1,0 +1,34 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIlibraryStrandConcept a rdfs:Class ;
+    rdfs:label "EBI libraryStrand concept" .
+
+mesyto-vocab:EBIlibraryStrand a skos:ConceptScheme ;
+    skos:prefLabel "EBI libraryStrand" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBINotApplicable ,
+                       mesyto:EBIFirstStrand ,
+                       mesyto:EBISecondStrand .
+
+mesyto:EBINotApplicable a mesyto:EBIlibraryStrandConcept, skos:Concept ;
+    rdfs:label "not applicable" ;
+    skos:prefLabel "not applicable" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrand ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrand .
+
+mesyto:EBIFirstStrand a mesyto:EBIlibraryStrandConcept, skos:Concept ;
+    rdfs:label "first strand" ;
+    skos:prefLabel "first strand" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrand ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrand .
+
+mesyto:EBISecondStrand a mesyto:EBIlibraryStrandConcept, skos:Concept ;
+    rdfs:label "second strand" ;
+    skos:prefLabel "second strand" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrand ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrand .

@@ -1,0 +1,188 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIenrichmentProcedureConcept a rdfs:Class ;
+    rdfs:label "EBI enrichmentProcedure concept" .
+
+mesyto-vocab:EBIenrichmentProcedure a skos:ConceptScheme ;
+    skos:prefLabel "EBI enrichmentProcedure" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBIRANDOMRandomSelectionByShearingOrOtherMethod ,
+                       mesyto:EBIPCRSourceMaterialWasSelectedByDesignedPrimers ,
+                       mesyto:EBIRANDOMPCRSourceMaterialWasSelectedByRandomlyGeneratedPrimers ,
+                       mesyto:EBIRTPCRSourceMaterialWasSelectedByReverseTranscriptionPCR ,
+                       mesyto:EBIHMPRHypoMethylatedPartialRestrictionDigest ,
+                       mesyto:EBIMFMethylFiltered ,
+                       mesyto:EBIRepeatFractionationRepeatsCFSCFMCFHCFT ,
+                       mesyto:EBISizeFractionation ,
+                       mesyto:EBIMSLLMethylationSpanningLinkingLibrary ,
+                       mesyto:EBICDNARandomPriming ,
+                       mesyto:EBIPolyAPolyASelectionOrEnrichmentForMessengerRNAMRNA ,
+                       mesyto:EBIOligoDTEnrichmentOfMessengerRNAMRNAByHybridizationToOligoDT ,
+                       mesyto:EBIInverseRNADepletionOfRibosomalRNAByOligoHybridization ,
+                       mesyto:EBIInverseRRNASelectionDepletionOfRibosomalRNAByInverseOligoHybridization ,
+                       mesyto:EBIChIPChromatinImmunoprecipitation ,
+                       mesyto:EBIMNaseMicrococcalNucleaseMNaseDigestion ,
+                       mesyto:EBIDNaseDNaseIEndonucleaseDigestionAndSizeSelectionRevealsRegionsOfChromatinWhereTheDNAIsHighlySensitiveToDNaseI ,
+                       mesyto:EBIHybridSelectionSelectionByHybridizationInArrayOrSolution ,
+                       mesyto:EBIReducedRepresentationReproducibleGenomicSubsetsOftenGeneratedByRestrictionFragmentSizeSelectionContainingAManageableNumberOfLociToFacilitateReSampling ,
+                       mesyto:EBIRestrictionDigestDNAFractionationUsingRestrictionEnzymes ,
+                       mesyto:EBI5MethylcytidineAntibodySelectionOfMethylatedDNAFragmentsUsingAnAntibodyRaisedAgainst5MethylcytosineOr5MethylcytidineM5C ,
+                       mesyto:EBIMBD2ProteinMethylCpGBindingDomainEnrichmentByMethylCpGBindingDomain ,
+                       mesyto:EBICAGECapAnalysisGeneExpression ,
+                       mesyto:EBIRACERapidAmplificationOfCDNAEnds ,
+                       mesyto:EBIMDAMultipleDisplacementAmplification .
+
+mesyto:EBIRANDOMRandomSelectionByShearingOrOtherMethod a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "RANDOM (Random selection by shearing or other method)" ;
+    skos:prefLabel "RANDOM (Random selection by shearing or other method)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIPCRSourceMaterialWasSelectedByDesignedPrimers a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "PCR (Source material was selected by designed primers)" ;
+    skos:prefLabel "PCR (Source material was selected by designed primers)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIRANDOMPCRSourceMaterialWasSelectedByRandomlyGeneratedPrimers a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "RANDOM PCR (Source material was selected by randomly generated primers)" ;
+    skos:prefLabel "RANDOM PCR (Source material was selected by randomly generated primers)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIRTPCRSourceMaterialWasSelectedByReverseTranscriptionPCR a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "RT-PCR (Source material was selected by reverse transcription PCR)" ;
+    skos:prefLabel "RT-PCR (Source material was selected by reverse transcription PCR)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIHMPRHypoMethylatedPartialRestrictionDigest a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "HMPR (Hypo-methylated partial restriction digest)" ;
+    skos:prefLabel "HMPR (Hypo-methylated partial restriction digest)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIMFMethylFiltered a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "MF (Methyl Filtered)" ;
+    skos:prefLabel "MF (Methyl Filtered)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIRepeatFractionationRepeatsCFSCFMCFHCFT a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "repeat fractionation (repeats: CF-S, CF-M, CF-H, CF-T)" ;
+    skos:prefLabel "repeat fractionation (repeats: CF-S, CF-M, CF-H, CF-T)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBISizeFractionation a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "size fractionation" ;
+    skos:prefLabel "size fractionation" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIMSLLMethylationSpanningLinkingLibrary a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "MSLL (Methylation Spanning Linking Library)" ;
+    skos:prefLabel "MSLL (Methylation Spanning Linking Library)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBICDNARandomPriming a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "cDNA_randomPriming" ;
+    skos:prefLabel "cDNA_randomPriming" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIPolyAPolyASelectionOrEnrichmentForMessengerRNAMRNA a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "PolyA (PolyA selection or enrichment for messenger RNA (mRNA))" ;
+    skos:prefLabel "PolyA (PolyA selection or enrichment for messenger RNA (mRNA))" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIOligoDTEnrichmentOfMessengerRNAMRNAByHybridizationToOligoDT a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "Oligo-dT (Enrichment of messenger RNA (mRNA) by hybridization to Oligo-dT)" ;
+    skos:prefLabel "Oligo-dT (Enrichment of messenger RNA (mRNA) by hybridization to Oligo-dT)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIInverseRNADepletionOfRibosomalRNAByOligoHybridization a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "Inverse RNA (Depletion of ribosomal RNA by oligo hybridization)" ;
+    skos:prefLabel "Inverse RNA (Depletion of ribosomal RNA by oligo hybridization)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIInverseRRNASelectionDepletionOfRibosomalRNAByInverseOligoHybridization a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "Inverse rRNA selection (Depletion of ribosomal RNA by inverse oligo hybridization)" ;
+    skos:prefLabel "Inverse rRNA selection (Depletion of ribosomal RNA by inverse oligo hybridization)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIChIPChromatinImmunoprecipitation a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "ChIP (Chromatin immunoprecipitation)" ;
+    skos:prefLabel "ChIP (Chromatin immunoprecipitation)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIMNaseMicrococcalNucleaseMNaseDigestion a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "MNase (Micrococcal Nuclease (MNase) digestion)" ;
+    skos:prefLabel "MNase (Micrococcal Nuclease (MNase) digestion)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIDNaseDNaseIEndonucleaseDigestionAndSizeSelectionRevealsRegionsOfChromatinWhereTheDNAIsHighlySensitiveToDNaseI a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "DNase (DNase I endonuclease digestion and size selection reveals regions of chromatin where the DNA is highly sensitive to DNase I)" ;
+    skos:prefLabel "DNase (DNase I endonuclease digestion and size selection reveals regions of chromatin where the DNA is highly sensitive to DNase I)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIHybridSelectionSelectionByHybridizationInArrayOrSolution a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "Hybrid Selection (Selection by hybridization in array or solution)" ;
+    skos:prefLabel "Hybrid Selection (Selection by hybridization in array or solution)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIReducedRepresentationReproducibleGenomicSubsetsOftenGeneratedByRestrictionFragmentSizeSelectionContainingAManageableNumberOfLociToFacilitateReSampling a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "Reduced Representation (Reproducible genomic subsets, often generated by restriction fragment size selection, containing a manageable number of loci to facilitate re-sampling)" ;
+    skos:prefLabel "Reduced Representation (Reproducible genomic subsets, often generated by restriction fragment size selection, containing a manageable number of loci to facilitate re-sampling)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIRestrictionDigestDNAFractionationUsingRestrictionEnzymes a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "Restriction Digest (DNA fractionation using restriction enzymes)" ;
+    skos:prefLabel "Restriction Digest (DNA fractionation using restriction enzymes)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBI5MethylcytidineAntibodySelectionOfMethylatedDNAFragmentsUsingAnAntibodyRaisedAgainst5MethylcytosineOr5MethylcytidineM5C a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "5-methylcytidine antibody (Selection of methylated DNA fragments using an antibody raised against 5-methylcytosine or 5-methylcytidine (m5C))" ;
+    skos:prefLabel "5-methylcytidine antibody (Selection of methylated DNA fragments using an antibody raised against 5-methylcytosine or 5-methylcytidine (m5C))" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIMBD2ProteinMethylCpGBindingDomainEnrichmentByMethylCpGBindingDomain a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "MBD2 protein methyl-CpG binding domain (Enrichment by methyl-CpG binding domain)" ;
+    skos:prefLabel "MBD2 protein methyl-CpG binding domain (Enrichment by methyl-CpG binding domain)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBICAGECapAnalysisGeneExpression a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "CAGE (Cap-analysis gene expression)" ;
+    skos:prefLabel "CAGE (Cap-analysis gene expression)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIRACERapidAmplificationOfCDNAEnds a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "RACE (Rapid Amplification of cDNA Ends)" ;
+    skos:prefLabel "RACE (Rapid Amplification of cDNA Ends)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .
+
+mesyto:EBIMDAMultipleDisplacementAmplification a mesyto:EBIenrichmentProcedureConcept, skos:Concept ;
+    rdfs:label "MDA (Multiple displacement amplification)" ;
+    skos:prefLabel "MDA (Multiple displacement amplification)" ;
+    skos:inScheme mesyto-vocab:EBIenrichmentProcedure ;
+    skos:topConceptOf mesyto-vocab:EBIenrichmentProcedure .

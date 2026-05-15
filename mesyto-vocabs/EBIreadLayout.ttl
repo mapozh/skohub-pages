@@ -1,0 +1,27 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIreadLayoutConcept a rdfs:Class ;
+    rdfs:label "EBI readLayout concept" .
+
+mesyto-vocab:EBIreadLayout a skos:ConceptScheme ;
+    skos:prefLabel "EBI readLayout" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBISINGLE ,
+                       mesyto:EBIPAIRED .
+
+mesyto:EBISINGLE a mesyto:EBIreadLayoutConcept, skos:Concept ;
+    rdfs:label "SINGLE" ;
+    skos:prefLabel "SINGLE" ;
+    skos:inScheme mesyto-vocab:EBIreadLayout ;
+    skos:topConceptOf mesyto-vocab:EBIreadLayout .
+
+mesyto:EBIPAIRED a mesyto:EBIreadLayoutConcept, skos:Concept ;
+    rdfs:label "PAIRED" ;
+    skos:prefLabel "PAIRED" ;
+    skos:inScheme mesyto-vocab:EBIreadLayout ;
+    skos:topConceptOf mesyto-vocab:EBIreadLayout .

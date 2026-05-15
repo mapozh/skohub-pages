@@ -1,0 +1,111 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:bioSampleTypeConcept a rdfs:Class ;
+    rdfs:label "bioSampleType concept" .
+
+mesyto-vocab:bioSampleType a skos:ConceptScheme ;
+    skos:prefLabel "bioSampleType" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:WholeOrganism ,
+                       mesyto:OrganismPart ,
+                       mesyto:Cell ,
+                       mesyto:Organoid ,
+                       mesyto:RNA ,
+                       mesyto:DNA ,
+                       mesyto:SingleCell ,
+                       mesyto:2DCellCulture ,
+                       mesyto:3DCellCulture ,
+                       mesyto:Tissue ,
+                       mesyto:Organ ,
+                       mesyto:FreshSpecimen ,
+                       mesyto:FrozenSpecimen ,
+                       mesyto:ParaffinEmbeddedSpecimen .
+
+mesyto:WholeOrganism a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "whole organism" ;
+    skos:prefLabel "whole organism" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:OrganismPart a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "organism part" ;
+    skos:prefLabel "organism part" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:Cell a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "cell" ;
+    skos:prefLabel "cell" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:Organoid a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "organoid" ;
+    skos:prefLabel "organoid" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:RNA a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "RNA" ;
+    skos:prefLabel "RNA" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:DNA a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "DNA" ;
+    skos:prefLabel "DNA" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:SingleCell a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "single cell" ;
+    skos:prefLabel "single cell" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:2DCellCulture a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "2D cell culture" ;
+    skos:prefLabel "2D cell culture" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:3DCellCulture a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "3D cell culture" ;
+    skos:prefLabel "3D cell culture" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:Tissue a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "tissue" ;
+    skos:prefLabel "tissue" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:Organ a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "organ" ;
+    skos:prefLabel "organ" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:FreshSpecimen a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "fresh specimen" ;
+    skos:prefLabel "fresh specimen" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:FrozenSpecimen a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "frozen specimen" ;
+    skos:prefLabel "frozen specimen" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .
+
+mesyto:ParaffinEmbeddedSpecimen a mesyto:bioSampleTypeConcept, skos:Concept ;
+    rdfs:label "paraffin-embedded specimen" ;
+    skos:prefLabel "paraffin-embedded specimen" ;
+    skos:inScheme mesyto-vocab:bioSampleType ;
+    skos:topConceptOf mesyto-vocab:bioSampleType .

@@ -1,0 +1,62 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:GEOlibrarySourceConcept a rdfs:Class ;
+    rdfs:label "GEOlibrarySource concept" .
+
+mesyto-vocab:GEOlibrarySource a skos:ConceptScheme ;
+    skos:prefLabel "GEOlibrarySource" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:TotalRNA ,
+                       mesyto:PolyARNA ,
+                       mesyto:CytoplasmicRNA ,
+                       mesyto:NuclearRNA ,
+                       mesyto:GenomicDNA ,
+                       mesyto:Protein ,
+                       mesyto:Other .
+
+mesyto:TotalRNA a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "total RNA" ;
+    skos:prefLabel "total RNA" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .
+
+mesyto:PolyARNA a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "polyA RNA" ;
+    skos:prefLabel "polyA RNA" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .
+
+mesyto:CytoplasmicRNA a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "cytoplasmic RNA" ;
+    skos:prefLabel "cytoplasmic RNA" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .
+
+mesyto:NuclearRNA a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "nuclear RNA" ;
+    skos:prefLabel "nuclear RNA" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .
+
+mesyto:GenomicDNA a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "genomic DNA" ;
+    skos:prefLabel "genomic DNA" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .
+
+mesyto:Protein a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "protein" ;
+    skos:prefLabel "protein" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .
+
+mesyto:Other a mesyto:GEOlibrarySourceConcept, skos:Concept ;
+    rdfs:label "other" ;
+    skos:prefLabel "other" ;
+    skos:inScheme mesyto-vocab:GEOlibrarySource ;
+    skos:topConceptOf mesyto-vocab:GEOlibrarySource .

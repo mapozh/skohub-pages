@@ -1,0 +1,461 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIsequencingPlatformConcept a rdfs:Class ;
+    rdfs:label "EBI sequencingPlatform concept" .
+
+mesyto-vocab:EBIsequencingPlatform a skos:ConceptScheme ;
+    skos:prefLabel "EBI sequencingPlatform" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBILS454 ,
+                       mesyto:EBIABISOLID ,
+                       mesyto:EBIBGISEQ ,
+                       mesyto:EBICAPILLARY ,
+                       mesyto:EBICOMPLETEGENOMICS ,
+                       mesyto:EBIDNBSEQ ,
+                       mesyto:EBIELEMENT ,
+                       mesyto:EBIGENAPSYS ,
+                       mesyto:EBIGENEMIND ,
+                       mesyto:EBIHELICOS ,
+                       mesyto:EBIILLUMINA ,
+                       mesyto:EBIIONTORRENT ,
+                       mesyto:EBIOXFORDNANOPORE ,
+                       mesyto:EBIPACBIOSMRT ,
+                       mesyto:EBITAPESTRI ,
+                       mesyto:EBIULTIMA ,
+                       mesyto:EBIVELADIAGNOSTICS ,
+                       mesyto:EBI454GS ,
+                       mesyto:EBI454GS20 ,
+                       mesyto:EBI454GSFLX ,
+                       mesyto:EBI454GSFLX ,
+                       mesyto:EBI454GSFLXTitanium ,
+                       mesyto:EBI454GSJunior ,
+                       mesyto:EBIHiSeqXFive ,
+                       mesyto:EBIHiSeqXTen ,
+                       mesyto:EBIIlluminaGenomeAnalyzer ,
+                       mesyto:EBIIlluminaGenomeAnalyzerII ,
+                       mesyto:EBIIlluminaGenomeAnalyzerIIx ,
+                       mesyto:EBIIlluminaHiScanSQ ,
+                       mesyto:EBIIlluminaHiSeq1000 ,
+                       mesyto:EBIIlluminaHiSeq1500 ,
+                       mesyto:EBIIlluminaHiSeq2000 ,
+                       mesyto:EBIIlluminaHiSeq2500 ,
+                       mesyto:EBIIlluminaHiSeq3000 ,
+                       mesyto:EBIIlluminaHiSeq4000 ,
+                       mesyto:EBIIlluminaHiSeqX ,
+                       mesyto:EBIIlluminaMiSeq ,
+                       mesyto:EBIIlluminaMiSeqI100 ,
+                       mesyto:EBIIlluminaMiniSeq ,
+                       mesyto:EBIIlluminaNovaSeq6000 ,
+                       mesyto:EBIIlluminaNovaSeqX ,
+                       mesyto:EBIIlluminaNovaSeqXPlus ,
+                       mesyto:EBIIlluminaISeq100 ,
+                       mesyto:EBINextSeq1000 ,
+                       mesyto:EBINextSeq2000 ,
+                       mesyto:EBINextSeq500 ,
+                       mesyto:EBINextSeq550 ,
+                       mesyto:EBIHelicosHeliScope ,
+                       mesyto:EBIAB5500GeneticAnalyzer ,
+                       mesyto:EBIAB5500xlGeneticAnalyzer ,
+                       mesyto:EBIAB5500xWlGeneticAnalyzer ,
+                       mesyto:EBIABSOLiD3PlusSystem ,
+                       mesyto:EBIABSOLiD4System ,
+                       mesyto:EBIABSOLiD4hqSystem ,
+                       mesyto:EBIABSOLiDPISystem ,
+                       mesyto:EBIABSOLiDSystem ,
+                       mesyto:EBIABSOLiDSystem20 ,
+                       mesyto:EBIABSOLiDSystem30 ,
+                       mesyto:EBICompleteGenomics ,
+                       mesyto:EBIPacBioRS ,
+                       mesyto:EBIPacBioRSII ,
+                       mesyto:EBIRevio ,
+                       mesyto:EBISequel ,
+                       mesyto:EBISequelII .
+
+mesyto:EBILS454 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "_LS454" ;
+    skos:prefLabel "_LS454" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABISOLID a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "ABI_SOLID" ;
+    skos:prefLabel "ABI_SOLID" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIBGISEQ a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "BGISEQ" ;
+    skos:prefLabel "BGISEQ" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBICAPILLARY a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "CAPILLARY" ;
+    skos:prefLabel "CAPILLARY" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBICOMPLETEGENOMICS a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "COMPLETE_GENOMICS" ;
+    skos:prefLabel "COMPLETE_GENOMICS" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIDNBSEQ a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "DNBSEQ" ;
+    skos:prefLabel "DNBSEQ" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIELEMENT a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "ELEMENT" ;
+    skos:prefLabel "ELEMENT" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIGENAPSYS a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "GENAPSYS" ;
+    skos:prefLabel "GENAPSYS" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIGENEMIND a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "GENEMIND" ;
+    skos:prefLabel "GENEMIND" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIHELICOS a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "HELICOS" ;
+    skos:prefLabel "HELICOS" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIILLUMINA a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "ILLUMINA" ;
+    skos:prefLabel "ILLUMINA" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIONTORRENT a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "ION_TORRENT" ;
+    skos:prefLabel "ION_TORRENT" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIOXFORDNANOPORE a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "OXFORD_NANOPORE" ;
+    skos:prefLabel "OXFORD_NANOPORE" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIPACBIOSMRT a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "PACBIO_SMRT" ;
+    skos:prefLabel "PACBIO_SMRT" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBITAPESTRI a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "TAPESTRI" ;
+    skos:prefLabel "TAPESTRI" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIULTIMA a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "ULTIMA" ;
+    skos:prefLabel "ULTIMA" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIVELADIAGNOSTICS a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "VELA_DIAGNOSTICS" ;
+    skos:prefLabel "VELA_DIAGNOSTICS" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBI454GS a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "454 GS" ;
+    skos:prefLabel "454 GS" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBI454GS20 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "454 GS 20" ;
+    skos:prefLabel "454 GS 20" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBI454GSFLX a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "454 GS FLX" ;
+    skos:prefLabel "454 GS FLX" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBI454GSFLX a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "454 GS FLX+" ;
+    skos:prefLabel "454 GS FLX+" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBI454GSFLXTitanium a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "454 GS FLX Titanium" ;
+    skos:prefLabel "454 GS FLX Titanium" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBI454GSJunior a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "454 GS Junior" ;
+    skos:prefLabel "454 GS Junior" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIHiSeqXFive a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "HiSeq X Five" ;
+    skos:prefLabel "HiSeq X Five" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIHiSeqXTen a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "HiSeq X Ten" ;
+    skos:prefLabel "HiSeq X Ten" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaGenomeAnalyzer a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina Genome Analyzer" ;
+    skos:prefLabel "Illumina Genome Analyzer" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaGenomeAnalyzerII a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina Genome Analyzer II" ;
+    skos:prefLabel "Illumina Genome Analyzer II" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaGenomeAnalyzerIIx a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina Genome Analyzer IIx" ;
+    skos:prefLabel "Illumina Genome Analyzer IIx" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiScanSQ a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiScanSQ" ;
+    skos:prefLabel "Illumina HiScanSQ" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeq1000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 1000" ;
+    skos:prefLabel "Illumina HiSeq 1000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeq1500 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 1500" ;
+    skos:prefLabel "Illumina HiSeq 1500" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeq2000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 2000" ;
+    skos:prefLabel "Illumina HiSeq 2000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeq2500 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 2500" ;
+    skos:prefLabel "Illumina HiSeq 2500" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeq3000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 3000" ;
+    skos:prefLabel "Illumina HiSeq 3000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeq4000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq 4000" ;
+    skos:prefLabel "Illumina HiSeq 4000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaHiSeqX a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina HiSeq X" ;
+    skos:prefLabel "Illumina HiSeq X" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaMiSeq a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina MiSeq" ;
+    skos:prefLabel "Illumina MiSeq" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaMiSeqI100 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina MiSeq i100" ;
+    skos:prefLabel "Illumina MiSeq i100" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaMiniSeq a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina MiniSeq" ;
+    skos:prefLabel "Illumina MiniSeq" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaNovaSeq6000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NovaSeq 6000" ;
+    skos:prefLabel "Illumina NovaSeq 6000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaNovaSeqX a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NovaSeq X" ;
+    skos:prefLabel "Illumina NovaSeq X" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaNovaSeqXPlus a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina NovaSeq X Plus" ;
+    skos:prefLabel "Illumina NovaSeq X Plus" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIIlluminaISeq100 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Illumina iSeq 100" ;
+    skos:prefLabel "Illumina iSeq 100" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBINextSeq1000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 1000" ;
+    skos:prefLabel "NextSeq 1000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBINextSeq2000 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 2000" ;
+    skos:prefLabel "NextSeq 2000" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBINextSeq500 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 500" ;
+    skos:prefLabel "NextSeq 500" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBINextSeq550 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "NextSeq 550" ;
+    skos:prefLabel "NextSeq 550" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIHelicosHeliScope a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Helicos HeliScope" ;
+    skos:prefLabel "Helicos HeliScope" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIAB5500GeneticAnalyzer a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB 5500 Genetic Analyzer" ;
+    skos:prefLabel "AB 5500 Genetic Analyzer" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIAB5500xlGeneticAnalyzer a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB 5500xl Genetic Analyzer" ;
+    skos:prefLabel "AB 5500xl Genetic Analyzer" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIAB5500xWlGeneticAnalyzer a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB 5500x-Wl Genetic Analyzer" ;
+    skos:prefLabel "AB 5500x-Wl Genetic Analyzer" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiD3PlusSystem a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD 3 Plus System" ;
+    skos:prefLabel "AB SOLiD 3 Plus System" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiD4System a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD 4 System" ;
+    skos:prefLabel "AB SOLiD 4 System" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiD4hqSystem a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD 4hq System" ;
+    skos:prefLabel "AB SOLiD 4hq System" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiDPISystem a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD PI System" ;
+    skos:prefLabel "AB SOLiD PI System" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiDSystem a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD System" ;
+    skos:prefLabel "AB SOLiD System" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiDSystem20 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD System 2.0" ;
+    skos:prefLabel "AB SOLiD System 2.0" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIABSOLiDSystem30 a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "AB SOLiD System 3.0" ;
+    skos:prefLabel "AB SOLiD System 3.0" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBICompleteGenomics a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Complete Genomics" ;
+    skos:prefLabel "Complete Genomics" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIPacBioRS a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "PacBio RS" ;
+    skos:prefLabel "PacBio RS" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIPacBioRSII a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "PacBio RS II" ;
+    skos:prefLabel "PacBio RS II" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBIRevio a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Revio" ;
+    skos:prefLabel "Revio" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBISequel a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Sequel" ;
+    skos:prefLabel "Sequel" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .
+
+mesyto:EBISequelII a mesyto:EBIsequencingPlatformConcept, skos:Concept ;
+    rdfs:label "Sequel II" ;
+    skos:prefLabel "Sequel II" ;
+    skos:inScheme mesyto-vocab:EBIsequencingPlatform ;
+    skos:topConceptOf mesyto-vocab:EBIsequencingPlatform .

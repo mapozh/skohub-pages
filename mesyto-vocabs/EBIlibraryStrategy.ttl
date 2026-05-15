@@ -1,0 +1,230 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIlibraryStrategyConcept a rdfs:Class ;
+    rdfs:label "EBI libraryStrategy concept" .
+
+mesyto-vocab:EBIlibraryStrategy a skos:ConceptScheme ;
+    skos:prefLabel "EBI libraryStrategy" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBIWGSWholeGenomeSequencingRandomSequencingOfTheWholeGenomeSeePubmed10731132ForDetails ,
+                       mesyto:EBIWGAWholeGenomeAmplificationFollowedByRandomSequencingSeePubmed16310678962113ForDetails ,
+                       mesyto:EBIWXSRandomSequencingOfExonicRegionsSelectedFromTheGenomeSeePubmed20111037ForDetails ,
+                       mesyto:EBIRNASeqRandomSequencingOfWholeTranscriptomeAlsoKnownAsWholeTranscriptomeShotgunSequencingOrWTSSSeePubmed18611170ForDetails ,
+                       mesyto:EBISSRNASeqStrandSpecificRNASequencing ,
+                       mesyto:EBIMiRNASeqMicroRNASequencingStrategyDesignedToCapturePostTranscriptionalRNAElementsAndIncludeNonCodingFunctionalElementsSeePubmed21787409ForDetails ,
+                       mesyto:EBICRNASeqCaptureOfOtherNonCodingRNATypesIncludingPostTranslationModificationTypesSuchAsSRNASmallNuclearRNAOrSnORNASmallNucleolarRNAOrExpressionRegulationTypesSuchAsSiRNASmallInterferingRNAOrPiRNAPiwiRNAPiwiInteractingRNA ,
+                       mesyto:EBIFLCDNAFullLengthSequencingOfDNATemplates ,
+                       mesyto:EBIESTSinglePassSequencingOfDNATemplates ,
+                       mesyto:EBIHiCChromosomeConformationCaptureTechniqueWhereABiotinLabeledNucleotideIsIncorporatedAtTheLigationJunctionEnablingSelectivePurificationOfChimericDNALigationJunctionsFollowedByDeepSequencing ,
+                       mesyto:EBIATACSeqAssayForTransposaseAccessibleChromatinATACStrategyIsUsedToStudyGenomeWideChromatinAccessibilityAlternativeMethodToDNaseSeaThatUsesAnEngineeredTnTransposaseToCleaveDNAAndToIntegratePrimerDNASequencesIntoTheCleavedGenomicDNA ,
+                       mesyto:EBIWCSRandomSequencingOfAWholeChromosomeOrOtherRepliconIsolatedFromAGenome ,
+                       mesyto:EBIRADSeq ,
+                       mesyto:EBICLONEGenomicCloneBasedHierarchicalSequencing ,
+                       mesyto:EBIPOOLCLONEShotgunOfPooledClonesUsuallyBACsAndFosmids ,
+                       mesyto:EBIAMPLICONSequencingOfOverlappingOrDistinctPCROrRTPCRProducts ,
+                       mesyto:EBICLONEENDCloneEnd53OrBothSequencing ,
+                       mesyto:EBIFINISHINGSequencingIntendedToFinishCloseGapsInExistingCoverage ,
+                       mesyto:EBIChipSeqDirectSequencingOfChromatinImmunoprecipitates ,
+                       mesyto:EBIMNaseSeqDirectSequencingFollowingMNaseDigestion ,
+                       mesyto:EBIDNaseHypersensitivitySequencingOfHypersensitiveSitesOrSegmentsOfOpenChromatinThatAreMoreReadilyCleavedByDNasel ,
+                       mesyto:EBIBisulfiteSeqSequencingFollowingTreatmentOfDNAWithBisulfiteToConvertCytosineResiduesToUracilDependingOnMethylationStatus ,
+                       mesyto:EBICTSConcatenatedTagSequencing ,
+                       mesyto:EBIMRESeqMethylationSensitiveRestrictionEnzymeSegencing ,
+                       mesyto:EBIMeDIPSeqMethylatedDNAImmunoprecipitationSequencing ,
+                       mesyto:EBIMBDSeqMethylCpGBindingDomainSequencing ,
+                       mesyto:EBITnSeqQuantitativelyDetermineFitnessOfBacterialGenesBasedOnHowManyTimesAPurposelySeededTransposonGetsInsertedIntoEachGeneOfAColonyAfterSomeTime ,
+                       mesyto:EBIVALIDATION ,
+                       mesyto:EBIEARESeqFormaldehydeAssistedIsolationOfRegulatoryElementsRevealsRegionsOfOpenChromatin ,
+                       mesyto:EBISELEXSystematicEvolutionOfLigandsByExponentialEnrichment ,
+                       mesyto:EBIRiPSeqDirectSequencingOfRNAImmunoprecipitatesIncludesCLIPSeqHITSCLIPAndPARCLI .
+
+mesyto:EBIWGSWholeGenomeSequencingRandomSequencingOfTheWholeGenomeSeePubmed10731132ForDetails a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "WGS (Whole Genome Sequencing - random sequencing of the whole genome (see pubmed 10731132 for details))" ;
+    skos:prefLabel "WGS (Whole Genome Sequencing - random sequencing of the whole genome (see pubmed 10731132 for details))" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIWGAWholeGenomeAmplificationFollowedByRandomSequencingSeePubmed16310678962113ForDetails a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "WGA (Whole Genome Amplification followed by random sequencing. (see pubmed 1631067,8962113 for details))" ;
+    skos:prefLabel "WGA (Whole Genome Amplification followed by random sequencing. (see pubmed 1631067,8962113 for details))" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIWXSRandomSequencingOfExonicRegionsSelectedFromTheGenomeSeePubmed20111037ForDetails a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "WXS (Random sequencing of exonic regions selected from the genome. (see pubmed 20111037 for details))" ;
+    skos:prefLabel "WXS (Random sequencing of exonic regions selected from the genome. (see pubmed 20111037 for details))" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIRNASeqRandomSequencingOfWholeTranscriptomeAlsoKnownAsWholeTranscriptomeShotgunSequencingOrWTSSSeePubmed18611170ForDetails a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RNA-Seq (Random sequencing of whole transcriptome, also known as Whole Transcriptome Shotgun Sequencing, or WTSS. (see pubmed 18611170 for details) )" ;
+    skos:prefLabel "RNA-Seq (Random sequencing of whole transcriptome, also known as Whole Transcriptome Shotgun Sequencing, or WTSS. (see pubmed 18611170 for details) )" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBISSRNASeqStrandSpecificRNASequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "SSRNA-seq (Strand-specific RNA sequencing)" ;
+    skos:prefLabel "SSRNA-seq (Strand-specific RNA sequencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIMiRNASeqMicroRNASequencingStrategyDesignedToCapturePostTranscriptionalRNAElementsAndIncludeNonCodingFunctionalElementsSeePubmed21787409ForDetails a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "miRNA-Seq (Micro RNA sequencing strategy designed to capture post-transcriptional RNA elements and include non-coding functional elements. (see pubmed 21787409 for details))" ;
+    skos:prefLabel "miRNA-Seq (Micro RNA sequencing strategy designed to capture post-transcriptional RNA elements and include non-coding functional elements. (see pubmed 21787409 for details))" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBICRNASeqCaptureOfOtherNonCodingRNATypesIncludingPostTranslationModificationTypesSuchAsSRNASmallNuclearRNAOrSnORNASmallNucleolarRNAOrExpressionRegulationTypesSuchAsSiRNASmallInterferingRNAOrPiRNAPiwiRNAPiwiInteractingRNA a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CRNA-Seq (Capture of other non-coding RNA types, including post-translation modification types such as sRNA (small nuclear RNA) or SnORNA (small nucleolar RNA), or expression regulation types such as siRNA (small interfering RNA) or piRNA/piwi/RNA (piwi-interacting RNA),)" ;
+    skos:prefLabel "CRNA-Seq (Capture of other non-coding RNA types, including post-translation modification types such as sRNA (small nuclear RNA) or SnORNA (small nucleolar RNA), or expression regulation types such as siRNA (small interfering RNA) or piRNA/piwi/RNA (piwi-interacting RNA),)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIFLCDNAFullLengthSequencingOfDNATemplates a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "FL-CDNA (Full-length sequencing of DNA templates)" ;
+    skos:prefLabel "FL-CDNA (Full-length sequencing of DNA templates)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIESTSinglePassSequencingOfDNATemplates a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "EST (Single pass sequencing of DNA templates)" ;
+    skos:prefLabel "EST (Single pass sequencing of DNA templates)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIHiCChromosomeConformationCaptureTechniqueWhereABiotinLabeledNucleotideIsIncorporatedAtTheLigationJunctionEnablingSelectivePurificationOfChimericDNALigationJunctionsFollowedByDeepSequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Hi-C (Chromosome Conformation Capture technique where a biotin-labeled nucleotide is incorporated at the ligation junction, enabling selective purification of chimeric DNA ligation junctions followed by deep sequencing.)" ;
+    skos:prefLabel "Hi-C (Chromosome Conformation Capture technique where a biotin-labeled nucleotide is incorporated at the ligation junction, enabling selective purification of chimeric DNA ligation junctions followed by deep sequencing.)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIATACSeqAssayForTransposaseAccessibleChromatinATACStrategyIsUsedToStudyGenomeWideChromatinAccessibilityAlternativeMethodToDNaseSeaThatUsesAnEngineeredTnTransposaseToCleaveDNAAndToIntegratePrimerDNASequencesIntoTheCleavedGenomicDNA a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ATAC-seq (Assay for Transposase-Accessible Chromatin (ATAC) strategy is used to study genome-wide chromatin accessibility. alternative method to DNase-sea that uses an engineered Tn transposase to cleave DNA and to integrate primer DNA sequences into the cleaved genomic DNA.)" ;
+    skos:prefLabel "ATAC-seq (Assay for Transposase-Accessible Chromatin (ATAC) strategy is used to study genome-wide chromatin accessibility. alternative method to DNase-sea that uses an engineered Tn transposase to cleave DNA and to integrate primer DNA sequences into the cleaved genomic DNA.)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIWCSRandomSequencingOfAWholeChromosomeOrOtherRepliconIsolatedFromAGenome a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "WCS (Random sequencing of a whole chromosome or other replicon isolated from a genome)" ;
+    skos:prefLabel "WCS (Random sequencing of a whole chromosome or other replicon isolated from a genome)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIRADSeq a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RAD-Seq" ;
+    skos:prefLabel "RAD-Seq" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBICLONEGenomicCloneBasedHierarchicalSequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CLONE (Genomic clone based (hierarchical) sequencing)" ;
+    skos:prefLabel "CLONE (Genomic clone based (hierarchical) sequencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIPOOLCLONEShotgunOfPooledClonesUsuallyBACsAndFosmids a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "POOLCLONE (Shotgun of pooled clones (usually BACs and Fosmids))" ;
+    skos:prefLabel "POOLCLONE (Shotgun of pooled clones (usually BACs and Fosmids))" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIAMPLICONSequencingOfOverlappingOrDistinctPCROrRTPCRProducts a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "AMPLICON (Sequencing of overlapping or distinct PCR or RT-PCR products)" ;
+    skos:prefLabel "AMPLICON (Sequencing of overlapping or distinct PCR or RT-PCR products)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBICLONEENDCloneEnd53OrBothSequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CLONEEND (Clone end (5', 3', or both) sequencing)" ;
+    skos:prefLabel "CLONEEND (Clone end (5', 3', or both) sequencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIFINISHINGSequencingIntendedToFinishCloseGapsInExistingCoverage a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "FINISHING (Sequencing intended to finish (close) gaps in existing coverage)" ;
+    skos:prefLabel "FINISHING (Sequencing intended to finish (close) gaps in existing coverage)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIChipSeqDirectSequencingOfChromatinImmunoprecipitates a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Chip-Seq (Direct sequencing of chromatin immunoprecipitates)" ;
+    skos:prefLabel "Chip-Seq (Direct sequencing of chromatin immunoprecipitates)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIMNaseSeqDirectSequencingFollowingMNaseDigestion a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MNase-Seq (Direct sequencing following MNase digestion)" ;
+    skos:prefLabel "MNase-Seq (Direct sequencing following MNase digestion)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIDNaseHypersensitivitySequencingOfHypersensitiveSitesOrSegmentsOfOpenChromatinThatAreMoreReadilyCleavedByDNasel a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "DNase-Hypersensitivity (Sequencing of hypersensitive sites, or segments of open chromatin that are more readily cleaved by DNasel)" ;
+    skos:prefLabel "DNase-Hypersensitivity (Sequencing of hypersensitive sites, or segments of open chromatin that are more readily cleaved by DNasel)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIBisulfiteSeqSequencingFollowingTreatmentOfDNAWithBisulfiteToConvertCytosineResiduesToUracilDependingOnMethylationStatus a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Bisulfite-Seq (Sequencing following treatment of DNA with bisulfite to convert cytosine residues to uracil depending on methylation status)" ;
+    skos:prefLabel "Bisulfite-Seq (Sequencing following treatment of DNA with bisulfite to convert cytosine residues to uracil depending on methylation status)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBICTSConcatenatedTagSequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CTS (Concatenated Tag Sequencing)" ;
+    skos:prefLabel "CTS (Concatenated Tag Sequencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIMRESeqMethylationSensitiveRestrictionEnzymeSegencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MRE-Seq (Methylation-Sensitive Restriction Enzyme Segencing)" ;
+    skos:prefLabel "MRE-Seq (Methylation-Sensitive Restriction Enzyme Segencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIMeDIPSeqMethylatedDNAImmunoprecipitationSequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MeDIP-Seq (Methylated DNA Immunoprecipitation Sequencing)" ;
+    skos:prefLabel "MeDIP-Seq (Methylated DNA Immunoprecipitation Sequencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIMBDSeqMethylCpGBindingDomainSequencing a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MBD-Seq (Methyl CpG Binding Domain Sequencing)" ;
+    skos:prefLabel "MBD-Seq (Methyl CpG Binding Domain Sequencing)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBITnSeqQuantitativelyDetermineFitnessOfBacterialGenesBasedOnHowManyTimesAPurposelySeededTransposonGetsInsertedIntoEachGeneOfAColonyAfterSomeTime a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Tn-Seq (Quantitatively determine fitness of bacterial genes based on how many times a purposely seeded transposon gets inserted into each gene of a colony after some time.)" ;
+    skos:prefLabel "Tn-Seq (Quantitatively determine fitness of bacterial genes based on how many times a purposely seeded transposon gets inserted into each gene of a colony after some time.)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIVALIDATION a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "VALIDATION" ;
+    skos:prefLabel "VALIDATION" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIEARESeqFormaldehydeAssistedIsolationOfRegulatoryElementsRevealsRegionsOfOpenChromatin a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "EARE-seq (Formaldehyde-Assisted Isolation of Regulatory Elements. Reveals regions of open chromatin)" ;
+    skos:prefLabel "EARE-seq (Formaldehyde-Assisted Isolation of Regulatory Elements. Reveals regions of open chromatin)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBISELEXSystematicEvolutionOfLigandsByExponentialEnrichment a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "SELEX (Systematic Evolution of Ligands by Exponential enrichment)" ;
+    skos:prefLabel "SELEX (Systematic Evolution of Ligands by Exponential enrichment)" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .
+
+mesyto:EBIRiPSeqDirectSequencingOfRNAImmunoprecipitatesIncludesCLIPSeqHITSCLIPAndPARCLI a mesyto:EBIlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RiP-Seq (Direct sequencing of RNA immunoprecipitates (includes CLIP-Seq, HITS-CLIP and PAR-CLI))" ;
+    skos:prefLabel "RiP-Seq (Direct sequencing of RNA immunoprecipitates (includes CLIP-Seq, HITS-CLIP and PAR-CLI))" ;
+    skos:inScheme mesyto-vocab:EBIlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:EBIlibraryStrategy .

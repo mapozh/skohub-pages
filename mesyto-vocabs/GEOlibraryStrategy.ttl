@@ -1,0 +1,342 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:GEOlibraryStrategyConcept a rdfs:Class ;
+    rdfs:label "GEOlibraryStrategy concept" .
+
+mesyto-vocab:GEOlibraryStrategy a skos:ConceptScheme ;
+    skos:prefLabel "GEOlibraryStrategy" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:RNASeq ,
+                       mesyto:ScRNASeq ,
+                       mesyto:MiRNASeq ,
+                       mesyto:NcRNASeq ,
+                       mesyto:ChIPSeq ,
+                       mesyto:ATACSeq ,
+                       mesyto:BisulfiteSeq ,
+                       mesyto:BisulfiteSeqReducedRepresentation ,
+                       mesyto:SpatialTranscriptomics ,
+                       mesyto:CITESeq ,
+                       mesyto:CUTRun ,
+                       mesyto:CUTTag ,
+                       mesyto:MNaseSeq ,
+                       mesyto:HiC ,
+                       mesyto:MBDSeq ,
+                       mesyto:MRESeq ,
+                       mesyto:MeDIPSeq ,
+                       mesyto:DNaseHypersensitivity ,
+                       mesyto:TnSeq ,
+                       mesyto:FAIRESeq ,
+                       mesyto:SELEX ,
+                       mesyto:RIPSeq ,
+                       mesyto:ChIAPET ,
+                       mesyto:BRUSeq ,
+                       mesyto:CRISPRScreen ,
+                       mesyto:CaptureC ,
+                       mesyto:ChECSeq ,
+                       mesyto:ChIRPSeq ,
+                       mesyto:DamIDSeq ,
+                       mesyto:EMSeq ,
+                       mesyto:GROSeq ,
+                       mesyto:HiChIP ,
+                       mesyto:MeRIPSeq ,
+                       mesyto:PROSeq ,
+                       mesyto:RNAMethylation ,
+                       mesyto:RiboSeq ,
+                       mesyto:TCRSeq ,
+                       mesyto:BCRSeq ,
+                       mesyto:ICLIP ,
+                       mesyto:SmallRNASeq ,
+                       mesyto:SnRNASeq ,
+                       mesyto:SsRNASeq ,
+                       mesyto:RNASeqCAGE ,
+                       mesyto:RNASeqRACE ,
+                       mesyto:16SRRNASeq ,
+                       mesyto:4CSeq ,
+                       mesyto:OTHERSpecify .
+
+mesyto:RNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RNA-Seq" ;
+    skos:prefLabel "RNA-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ScRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "scRNA-seq" ;
+    skos:prefLabel "scRNA-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:MiRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "miRNA-Seq" ;
+    skos:prefLabel "miRNA-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:NcRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ncRNA-Seq" ;
+    skos:prefLabel "ncRNA-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ChIPSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ChIP-Seq" ;
+    skos:prefLabel "ChIP-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ATACSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ATAC-seq" ;
+    skos:prefLabel "ATAC-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:BisulfiteSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Bisulfite-Seq" ;
+    skos:prefLabel "Bisulfite-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:BisulfiteSeqReducedRepresentation a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Bisulfite-Seq (reduced representation)" ;
+    skos:prefLabel "Bisulfite-Seq (reduced representation)" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:SpatialTranscriptomics a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Spatial Transcriptomics" ;
+    skos:prefLabel "Spatial Transcriptomics" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:CITESeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CITE-seq" ;
+    skos:prefLabel "CITE-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:CUTRun a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CUT&Run" ;
+    skos:prefLabel "CUT&Run" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:CUTTag a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CUT&Tag" ;
+    skos:prefLabel "CUT&Tag" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:MNaseSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MNase-Seq" ;
+    skos:prefLabel "MNase-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:HiC a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Hi-C" ;
+    skos:prefLabel "Hi-C" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:MBDSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MBD-Seq" ;
+    skos:prefLabel "MBD-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:MRESeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MRE-Seq" ;
+    skos:prefLabel "MRE-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:MeDIPSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MeDIP-Seq" ;
+    skos:prefLabel "MeDIP-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:DNaseHypersensitivity a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "DNase-Hypersensitivity" ;
+    skos:prefLabel "DNase-Hypersensitivity" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:TnSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Tn-Seq" ;
+    skos:prefLabel "Tn-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:FAIRESeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "FAIRE-seq" ;
+    skos:prefLabel "FAIRE-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:SELEX a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "SELEX" ;
+    skos:prefLabel "SELEX" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:RIPSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RIP-Seq" ;
+    skos:prefLabel "RIP-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ChIAPET a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ChIA-PET" ;
+    skos:prefLabel "ChIA-PET" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:BRUSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "BRU-Seq" ;
+    skos:prefLabel "BRU-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:CRISPRScreen a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "CRISPR Screen" ;
+    skos:prefLabel "CRISPR Screen" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:CaptureC a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Capture-C" ;
+    skos:prefLabel "Capture-C" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ChECSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ChEC-seq" ;
+    skos:prefLabel "ChEC-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ChIRPSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ChIRP-seq" ;
+    skos:prefLabel "ChIRP-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:DamIDSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "DamID-Seq" ;
+    skos:prefLabel "DamID-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:EMSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "EM-seq" ;
+    skos:prefLabel "EM-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:GROSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "GRO-Seq" ;
+    skos:prefLabel "GRO-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:HiChIP a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "HiChIP" ;
+    skos:prefLabel "HiChIP" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:MeRIPSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "MeRIP-Seq" ;
+    skos:prefLabel "MeRIP-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:PROSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "PRO-Seq" ;
+    skos:prefLabel "PRO-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:RNAMethylation a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RNA methylation" ;
+    skos:prefLabel "RNA methylation" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:RiboSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "Ribo-Seq" ;
+    skos:prefLabel "Ribo-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:TCRSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "TCR-Seq" ;
+    skos:prefLabel "TCR-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:BCRSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "BCR-Seq" ;
+    skos:prefLabel "BCR-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:ICLIP a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "iCLIP" ;
+    skos:prefLabel "iCLIP" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:SmallRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "smallRNA-Seq" ;
+    skos:prefLabel "smallRNA-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:SnRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "snRNA-Seq" ;
+    skos:prefLabel "snRNA-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:SsRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "ssRNA-Seq" ;
+    skos:prefLabel "ssRNA-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:RNASeqCAGE a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RNA-Seq (CAGE)" ;
+    skos:prefLabel "RNA-Seq (CAGE)" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:RNASeqRACE a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "RNA-Seq (RACE)" ;
+    skos:prefLabel "RNA-Seq (RACE)" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:16SRRNASeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "16S rRNA-seq" ;
+    skos:prefLabel "16S rRNA-seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:4CSeq a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "4C-Seq" ;
+    skos:prefLabel "4C-Seq" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .
+
+mesyto:OTHERSpecify a mesyto:GEOlibraryStrategyConcept, skos:Concept ;
+    rdfs:label "OTHER: specify" ;
+    skos:prefLabel "OTHER: specify" ;
+    skos:inScheme mesyto-vocab:GEOlibraryStrategy ;
+    skos:topConceptOf mesyto-vocab:GEOlibraryStrategy .

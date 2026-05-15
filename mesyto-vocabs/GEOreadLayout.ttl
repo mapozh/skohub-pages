@@ -1,0 +1,27 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:GEOreadLayoutConcept a rdfs:Class ;
+    rdfs:label "GEO readLayout concept" .
+
+mesyto-vocab:GEOreadLayout a skos:ConceptScheme ;
+    skos:prefLabel "GEO readLayout" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:GEOSingle ,
+                       mesyto:GEOPairedEnd .
+
+mesyto:GEOSingle a mesyto:GEOreadLayoutConcept, skos:Concept ;
+    rdfs:label "single" ;
+    skos:prefLabel "single" ;
+    skos:inScheme mesyto-vocab:GEOreadLayout ;
+    skos:topConceptOf mesyto-vocab:GEOreadLayout .
+
+mesyto:GEOPairedEnd a mesyto:GEOreadLayoutConcept, skos:Concept ;
+    rdfs:label "paired-end" ;
+    skos:prefLabel "paired-end" ;
+    skos:inScheme mesyto-vocab:GEOreadLayout ;
+    skos:topConceptOf mesyto-vocab:GEOreadLayout .

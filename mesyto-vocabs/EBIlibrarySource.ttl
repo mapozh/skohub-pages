@@ -1,0 +1,76 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIlibrarySourceConcept a rdfs:Class ;
+    rdfs:label "EBI librarySource concept" .
+
+mesyto-vocab:EBIlibrarySource a skos:ConceptScheme ;
+    skos:prefLabel "EBI librarySource" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBIGENOMICGenomicDNAIncludesPCRProductsFromGenomicDNA ,
+                       mesyto:EBIGENOMICSINGLECELLGenomicContentOfASingleCellEitherForWGSOrAmpliconStudies ,
+                       mesyto:EBITRANSCRIPTOMICTranscriptionProductsOrNonGenomicDNAESTCDNARTPCRScreenedLibraries ,
+                       mesyto:EBITRANSCRIPTOMICSINGLECELLRNASeqOfCodingRNAFromSingleCellsOrRNASeqOfNonCodingRNAFromSingleCells ,
+                       mesyto:EBIMETAGENOMICMixedMaterialFromMetagenome ,
+                       mesyto:EBIMETATRANSCRIPTOMICTranscriptionProductsFromCommunityTargets ,
+                       mesyto:EBISYNTHETICSyntheticDNA ,
+                       mesyto:EBIVIRALRINAViralRNA ,
+                       mesyto:EBIOTHEROtherUnspecifiedOrUnknownLibrarySourceMaterial .
+
+mesyto:EBIGENOMICGenomicDNAIncludesPCRProductsFromGenomicDNA a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "GENOMIC (Genomic DNA (includes PCR products from genomic DNA))" ;
+    skos:prefLabel "GENOMIC (Genomic DNA (includes PCR products from genomic DNA))" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBIGENOMICSINGLECELLGenomicContentOfASingleCellEitherForWGSOrAmpliconStudies a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "GENOMIC SINGLE CELL (Genomic content of a single cell, either for WGS or amplicon studies)" ;
+    skos:prefLabel "GENOMIC SINGLE CELL (Genomic content of a single cell, either for WGS or amplicon studies)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBITRANSCRIPTOMICTranscriptionProductsOrNonGenomicDNAESTCDNARTPCRScreenedLibraries a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "TRANSCRIPTOMIC (Transcription products or non genomic DNA (EST, CDNA, RT-PCR, screened libraries))" ;
+    skos:prefLabel "TRANSCRIPTOMIC (Transcription products or non genomic DNA (EST, CDNA, RT-PCR, screened libraries))" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBITRANSCRIPTOMICSINGLECELLRNASeqOfCodingRNAFromSingleCellsOrRNASeqOfNonCodingRNAFromSingleCells a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "TRANSCRIPTOMIC SINGLE CELL (RNA-seq of coding RNA from single cells or RNA-seq of non coding RNA from single cells)" ;
+    skos:prefLabel "TRANSCRIPTOMIC SINGLE CELL (RNA-seq of coding RNA from single cells or RNA-seq of non coding RNA from single cells)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBIMETAGENOMICMixedMaterialFromMetagenome a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "METAGENOMIC (Mixed material from metagenome)" ;
+    skos:prefLabel "METAGENOMIC (Mixed material from metagenome)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBIMETATRANSCRIPTOMICTranscriptionProductsFromCommunityTargets a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "METATRANSCRIPTOMIC (Transcription products from community targets)" ;
+    skos:prefLabel "METATRANSCRIPTOMIC (Transcription products from community targets)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBISYNTHETICSyntheticDNA a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "SYNTHETIC (Synthetic DNA)" ;
+    skos:prefLabel "SYNTHETIC (Synthetic DNA)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBIVIRALRINAViralRNA a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "VIRAL RINA (Viral RNA)" ;
+    skos:prefLabel "VIRAL RINA (Viral RNA)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .
+
+mesyto:EBIOTHEROtherUnspecifiedOrUnknownLibrarySourceMaterial a mesyto:EBIlibrarySourceConcept, skos:Concept ;
+    rdfs:label "OTHER (Other, unspecified, or unknown library source material)" ;
+    skos:prefLabel "OTHER (Other, unspecified, or unknown library source material)" ;
+    skos:inScheme mesyto-vocab:EBIlibrarySource ;
+    skos:topConceptOf mesyto-vocab:EBIlibrarySource .

@@ -1,0 +1,55 @@
+@prefix mesyto: <https://w3id.org/mesyto/ontology#> .
+@prefix mesyto-vocab: <https://w3id.org/mesyto/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+mesyto:EBIbioSampleTypeConcept a rdfs:Class ;
+    rdfs:label "EBI bioSampleType concept" .
+
+mesyto-vocab:EBIbioSampleType a skos:ConceptScheme ;
+    skos:prefLabel "EBI bioSampleType" ;
+    dcterms:creator "MeSyTo" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept mesyto:EBIWholeOrganism ,
+                       mesyto:EBIOrganismPart ,
+                       mesyto:EBICell ,
+                       mesyto:EBIOrganoid ,
+                       mesyto:EBIRNA ,
+                       mesyto:EBIDNA .
+
+mesyto:EBIWholeOrganism a mesyto:EBIbioSampleTypeConcept, skos:Concept ;
+    rdfs:label "whole organism" ;
+    skos:prefLabel "whole organism" ;
+    skos:inScheme mesyto-vocab:EBIbioSampleType ;
+    skos:topConceptOf mesyto-vocab:EBIbioSampleType .
+
+mesyto:EBIOrganismPart a mesyto:EBIbioSampleTypeConcept, skos:Concept ;
+    rdfs:label "organism part" ;
+    skos:prefLabel "organism part" ;
+    skos:inScheme mesyto-vocab:EBIbioSampleType ;
+    skos:topConceptOf mesyto-vocab:EBIbioSampleType .
+
+mesyto:EBICell a mesyto:EBIbioSampleTypeConcept, skos:Concept ;
+    rdfs:label "cell" ;
+    skos:prefLabel "cell" ;
+    skos:inScheme mesyto-vocab:EBIbioSampleType ;
+    skos:topConceptOf mesyto-vocab:EBIbioSampleType .
+
+mesyto:EBIOrganoid a mesyto:EBIbioSampleTypeConcept, skos:Concept ;
+    rdfs:label "organoid" ;
+    skos:prefLabel "organoid" ;
+    skos:inScheme mesyto-vocab:EBIbioSampleType ;
+    skos:topConceptOf mesyto-vocab:EBIbioSampleType .
+
+mesyto:EBIRNA a mesyto:EBIbioSampleTypeConcept, skos:Concept ;
+    rdfs:label "RNA" ;
+    skos:prefLabel "RNA" ;
+    skos:inScheme mesyto-vocab:EBIbioSampleType ;
+    skos:topConceptOf mesyto-vocab:EBIbioSampleType .
+
+mesyto:EBIDNA a mesyto:EBIbioSampleTypeConcept, skos:Concept ;
+    rdfs:label "DNA" ;
+    skos:prefLabel "DNA" ;
+    skos:inScheme mesyto-vocab:EBIbioSampleType ;
+    skos:topConceptOf mesyto-vocab:EBIbioSampleType .
